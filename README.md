@@ -11,6 +11,5 @@ Send query to bot. You will get audio of most relevant video.
 
 ## Examples
 ```
-/start - information about bot
-<your query here> - mp3 file
+lemon tree - Lemon Tree - Fools Garden.mp3
 ```
