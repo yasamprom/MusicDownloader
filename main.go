@@ -48,6 +48,6 @@ func main() {
 		}
 		msg := tgbotapi.NewMessage(update.Message.Chat.ID, "Loading...")
 		bot.Send(msg)
-		processQuery(&update)
+		go processQuery(&update)
 	}
 }
