@@ -34,7 +34,7 @@ func processQuery(update *tgbotapi.Update) {
 
 func main() {
 	if err != nil {
-		panic(err)
+		return
 	}
 
 	bot.Debug = true
